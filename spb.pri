@@ -4,6 +4,8 @@
 #
 #-------------------------------------------------
 
+INCLUDEPATH += $$PWD
+DEPENDPATH += $$PWD
 
 HEADERS += \
     src/cproperty.h \

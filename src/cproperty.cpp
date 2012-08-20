@@ -68,6 +68,7 @@ CProperty::CProperty(QString label, Type type, QWidget *parent) :
         button->setMinimumHeight(32);
         button->setIconSize(QSize(64, 32));
         button->setText("none");
+        button->setFlat(true);
         _valueWidget = button;
         connect(button, SIGNAL(clicked()), this, SLOT(widgetValueChanged()));
     }
