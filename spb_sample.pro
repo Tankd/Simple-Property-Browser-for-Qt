@@ -6,7 +6,7 @@
 
 QT       += core gui
 
-DESTDIR = ../spb/bin
+DESTDIR = ../Simple-Property-Browser-for-Qt/bin
 
 TARGET = spb_sample
 TEMPLATE = app
